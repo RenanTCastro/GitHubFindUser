@@ -10,7 +10,7 @@ export default function searchBar(){
                 <input className="inputSearch" placeholder="Search GitHub username..."></input>
             </div>
             
-            <button className='buttonSearch'>
+            <button className='buttonSearch' >
                 <p>Search</p>
             </button>
         </div>
