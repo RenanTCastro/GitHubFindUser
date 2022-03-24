@@ -1,0 +1,45 @@
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f2a48;
+  border-radius: 10px;
+  padding: 10px;
+}
+.divSearchBar {
+  display: flex;
+  flex-direction: row;
+}
+
+.iconSearch {
+  width: 25px;
+  margin: 0px 15px 0px 15px;
+}
+
+.inputSearch {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 16px;
+  width: 300px;
+}
+.inputSearch:focus {
+  outline: none;
+}
+
+.buttonSearch {
+  background-color: #0079fb;
+  color: white;
+  font-family: "Red Hat Mono", monospace;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  padding: 0px 25px;
+}
+
+.buttonSearch:hover {
+  cursor: pointer;
+  background-color: #0255ad;
+}
