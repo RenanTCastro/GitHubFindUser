@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/header/header';
 import SearchBar from './components/searchBar/SearchBar';
-import UserInfo from './components/userInfo/userInfo';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import SunIcon from "../../images/SunIcon.svg"
+//import SunIcon from "../../images/SunIcon.svg"
 
 export default function Header(){
     return(
