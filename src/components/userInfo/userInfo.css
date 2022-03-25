@@ -1,8 +1,9 @@
 .userInfo {
   display: flex;
   flex-direction: row;
-  height: 50vh;
+  height: auto;
   margin-top: 25px;
+  padding: 30px;
   border-radius: 10px;
   background-color: #1f2a48;
 }
@@ -11,14 +12,12 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin: 5% 7% 0px 7%;
+  margin: 0px 7% 0px 0px;
 }
 
 .userInfoSections {
   width: 100%;
-  margin-right: 50px;
   color: white;
-  margin-top: 5%;
 }
 .userInfoSectionNameDate {
   display: flex;

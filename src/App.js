@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './components/header/header';
-import SearchBar from './components/searchBar/searchBar';
+import SearchBar from './components/searchBar/SearchBar';
 import UserInfo from './components/userInfo/userInfo';
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
     <div className='App'>
       <Header/>
       <SearchBar/>
-      <UserInfo/>
     </div>
   );
 }
